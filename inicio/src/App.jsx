@@ -6,16 +6,20 @@ import { TemplateExpressions } from "./Components/TemplateExpressions";
 import Imagens from "./Components/Imagens";
 import MeuCss from "./Components/MeuCss";
 import MyCss from "./Components/MyCss";
+import Varia from "./Componentes/Varia";
+import ListRender from "./Componentes/ListRender";
 function App() {
   return (
     <>
       {/* <FirstComponent/>
       <Events/>
-      <TemplateExpressions/> */}
+      <TemplateExpressions/> 
       <h2>Texto incrivel</h2>
-      {/* <Imagens/> */}
+      <Imagens/> 
       <MeuCss/>
       <MyCss/>
+      <Varia/>*/}
+     <ListRender/>
     </>
   );
 };
